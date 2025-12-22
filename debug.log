@@ -1,0 +1,5 @@
+[1221/104506.248:ERROR:registration_protocol_win.cc(108)] CreateFile: The system cannot find the file specified. (0x2)
+[1221/104506.927:ERROR:crashpad_client_win.cc(868)] not connected
+[1221/105202.168:ERROR:crashpad_client_win.cc(188)] crash server did not respond, self-terminating
+[1221/105206.736:ERROR:registration_protocol_win.cc(108)] CreateFile: The system cannot find the file specified. (0x2)
+[1221/110642.334:ERROR:registration_protocol_win.cc(108)] CreateFile: The system cannot find the file specified. (0x2)
