@@ -517,6 +517,93 @@ section {
     border-radius: 12px;
 }
 
+/* Featured Project Card Styles */
+.project-type {
+    font-size: 0.85rem;
+    color: var(--secondary);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.project-features-list {
+    margin: 1.2rem 0;
+}
+
+.project-features-list h4 {
+    font-size: 0.95rem;
+    color: var(--text-main);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.project-features-list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.project-features-list li {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 0.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.project-features-list li i {
+    color: var(--secondary);
+    font-size: 0.85rem;
+    width: 14px;
+    text-align: center;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+.btn-card {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1rem;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    flex: 1;
+}
+
+.btn-primary-card {
+    background: var(--gradient-primary);
+    color: #fff;
+    box-shadow: 0 4px 12px var(--primary-glow);
+}
+
+.btn-primary-card:hover {
+    box-shadow: 0 6px 18px var(--primary-glow);
+    transform: translateY(-2px);
+}
+
+.btn-outline-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+}
+
+.btn-outline-card:hover {
+    border-color: var(--primary);
+    background: rgba(99, 102, 241, 0.08);
+    transform: translateY(-2px);
+}
+
 /* Education Section */
 .timeline {
     position: relative;
